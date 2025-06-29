@@ -106,7 +106,7 @@ btnMonedaColones.addEventListener('click', () => {
     inputValorColones.value = result.toFixed(2);
 });
 
-// de dolares y euros a colones
+//De colones a x moneada
 
 btnColonesMoneda.addEventListener('click', () => {
     const colonesValor = inputValorColones.value
