@@ -153,7 +153,7 @@ btnColonesMoneda.addEventListener('click', () => {
 
 limpiarInput.addEventListener('click', () => {
 
-    inputValorMoneda.value = innerText = " ";
-    inputValorColones.value = innerText = " ";
+    inputValorMoneda.value = " ";
+    inputValorColones.value = " ";
     
 })
