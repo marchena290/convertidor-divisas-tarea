@@ -6,6 +6,8 @@ const inputValorMoneda = document.getElementById("valor-moneda");
 // tomar referencia del input de colones
 const inputValorColones = document.getElementById("valor-colones");
 
+const limpiarInput = document.getElementById("clearbutton");
+
 
 const liEUR = document.getElementById("eur");
 const liUSD = document.getElementById("usd");
@@ -148,3 +150,10 @@ btnColonesMoneda.addEventListener('click', () => {
 
     inputValorMoneda.value = result.toFixed(2);
 });
+
+limpiarInput.addEventListener('click', () => {
+
+    inputValorMoneda.value = innerText = " ";
+    inputValorColones.value = innerText = " ";
+    
+})
